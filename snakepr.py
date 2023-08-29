@@ -213,6 +213,7 @@ while not game_over:
             game_over = True
             break
 
+    
     show_score(white, 'consolas', 20)
     pygame.display.update()
     fps_controller.tick(speed)
